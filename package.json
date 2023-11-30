@@ -1,0 +1,23 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Learning graph QL",
+  "main": "server.js",
+  "scripts": {
+    "compile": "tsc",
+    "dev": "concurrently \"tsc --watch\" \"nodemon dist/server.js\""
+  },
+  "author": "ritik jha",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "graphql": "^16.8.1",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.2"
+  }
+}
